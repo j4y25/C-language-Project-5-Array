@@ -1,6 +1,9 @@
 explanation video :- "https://drive.google.com/file/d/1t1PaR1Ki6EXK7fShBZ7OlJq3PiM6CCbZ/view?usp=sharing"
 
 output screenshot :- "https://drive.google.com/drive/folders/1VuPe_rX1K-s90kXMJiTsML8bUfrMHuBQ?usp=sharing"
+
+
+
 Q1 – Negative Elements in 1D Array: The purpose of this program is to find all the negative elements from a one-dimensional array. We take the size and elements of the array using a loop and then check each element using the condition arr[i] < 0. If the element is less than zero, it is a negative element, so we print it. For example, from 2, -4, 1, -3, -5, the negative elements are -4, -3, -5.
 
 Q2 – Largest Element in 2D Array: The purpose of this program is to find the largest element from a two-dimensional array. Since a 2D array contains rows and columns, we use two nested loops to access every element. First, we consider arr[0][0] as the largest element and then compare every other element with it. If arr[i][j] is greater than the current largest value, we replace the largest value with that element. After checking all elements, the final value of largest is the largest element in the array.
