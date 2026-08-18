@@ -1,0 +1,10 @@
+explanation video :- "https://drive.google.com/file/d/1t1PaR1Ki6EXK7fShBZ7OlJq3PiM6CCbZ/view?usp=sharing"
+
+output screenshot :- "https://drive.google.com/drive/folders/1VuPe_rX1K-s90kXMJiTsML8bUfrMHuBQ?usp=sharing"
+Q1 – Negative Elements in 1D Array: The purpose of this program is to find all the negative elements from a one-dimensional array. We take the size and elements of the array using a loop and then check each element using the condition arr[i] < 0. If the element is less than zero, it is a negative element, so we print it. For example, from 2, -4, 1, -3, -5, the negative elements are -4, -3, -5.
+
+Q2 – Largest Element in 2D Array: The purpose of this program is to find the largest element from a two-dimensional array. Since a 2D array contains rows and columns, we use two nested loops to access every element. First, we consider arr[0][0] as the largest element and then compare every other element with it. If arr[i][j] is greater than the current largest value, we replace the largest value with that element. After checking all elements, the final value of largest is the largest element in the array.
+
+Q3 – Transpose of 2D Array: The purpose of this program is to find the transpose of a two-dimensional array. Transpose means converting the rows of a matrix into columns and the columns into rows. We use two nested loops and access the array using arr[j][i] instead of arr[i][j]. For example, if the original matrix is 2 4 1, 3 5 4, 8 2 6, its transpose becomes 2 3 8, 4 5 2, 1 4 6. The main logic is to interchange the row and column indexes.
+
+Q4 – Sum of Elements in Row & Column: The purpose of this program is to calculate the sum of the elements of a selected row and a selected column from a 2D array. First, the user enters the row number, and we keep the row number fixed while changing the column index using arr[rowNo][j]; each element is added to rowSum, which must be initialized to 0. Similarly, for the selected column, we keep the column number fixed and change the row index using arr[i][colNo], adding each element to colSum. For example, for the array 2 7 1, 3 5 4, 8 9 6, row 0 has a sum of 10, while column 2 has a sum of 11.
